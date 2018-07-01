@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class RadioBandPlanApp: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 

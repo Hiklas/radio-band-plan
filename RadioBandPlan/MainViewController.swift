@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainController.swift
 //  RadioBandPlan
 //
 //  Created by Fiona Bianchi on 18/06/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

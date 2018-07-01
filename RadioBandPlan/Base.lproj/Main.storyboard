@@ -1,24 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Q4U-St-uaL">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller Scene-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="BYZ-38-t0r" userLabel="Main View Controller Scene" customClass="MainViewController" customModule="RadioBandPlan" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="MainView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wbz-e9-eGh">
+                                <rect key="frame" x="67" y="342" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wbz-e9-eGh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="298" id="A9K-V8-qyp"/>
+                            <constraint firstItem="wbz-e9-eGh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BU9-hE-F0E"/>
+                            <constraint firstItem="wbz-e9-eGh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="E6C-qz-iub"/>
+                            <constraint firstItem="wbz-e9-eGh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZrR-Zt-wGk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="eNj-E1-A3O"/>
+                    <navigationItem key="navigationItem" id="FEd-e0-Xo7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2593" y="-21"/>
+        </scene>
+        <!--Band Plan View Controller-->
+        <scene sceneID="Rbn-Zi-OQq">
+            <objects>
+                <viewController id="HaM-Ra-Qvj" userLabel="Band Plan View Controller" customClass="BandPlanViewController" customModule="RadioBandPlan" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oyU-Uh-Cxp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Pzy-Gg-LbR"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="VXf-W6-ZcU"/>
+                    <navigationItem key="navigationItem" id="VO9-R1-EPa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DxX-lw-g6j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3484" y="395"/>
+        </scene>
+        <!--Notes View Controller-->
+        <scene sceneID="9hn-xI-txq">
+            <objects>
+                <viewController id="FEx-b2-taY" userLabel="Notes View Controller" customClass="NotesViewController" customModule="RadioBandPlan" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BSH-Vv-hx4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="mLm-ao-0KT"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="obq-Bm-2Rx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZFR-Ie-ywL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2593" y="864"/>
+        </scene>
+        <!--Radio Band Plan Tab Controller-->
+        <scene sceneID="its-Sm-JkV">
+            <objects>
+                <tabBarController title="Radio Band Plan Tab Controller" id="Q4U-St-uaL" customClass="TabBarController" customModule="RadioBandPlan" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wEZ-1Y-Q1X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="m6e-lu-ckq"/>
+                        <segue destination="HaM-Ra-Qvj" kind="relationship" relationship="viewControllers" id="Zo2-aG-ome"/>
+                        <segue destination="FEx-b2-taY" kind="relationship" relationship="viewControllers" id="mKB-nx-2Kc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQ6-hd-lt9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="790" y="395"/>
         </scene>
     </scenes>
 </document>

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAE4B48A20D76F9F0086D213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE4B48920D76F9F0086D213 /* AppDelegate.swift */; };
-		BAE4B48C20D76F9F0086D213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE4B48B20D76F9F0086D213 /* ViewController.swift */; };
+		BAD8C1C220E93E8000C04893 /* BandPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD8C1C120E93E8000C04893 /* BandPlanViewController.swift */; };
+		BAD8C1C420E93EC100C04893 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD8C1C320E93EC100C04893 /* NotesViewController.swift */; };
+		BAD8C1C620E9400200C04893 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD8C1C520E9400200C04893 /* TabBarController.swift */; };
+		BAE4B48A20D76F9F0086D213 /* RadioBandPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE4B48920D76F9F0086D213 /* RadioBandPlanApp.swift */; };
+		BAE4B48C20D76F9F0086D213 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE4B48B20D76F9F0086D213 /* MainViewController.swift */; };
 		BAE4B48F20D76F9F0086D213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE4B48D20D76F9F0086D213 /* Main.storyboard */; };
 		BAE4B49120D76FA00086D213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE4B49020D76FA00086D213 /* Assets.xcassets */; };
 		BAE4B49420D76FA00086D213 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE4B49220D76FA00086D213 /* LaunchScreen.storyboard */; };
@@ -34,9 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BAD8C1C120E93E8000C04893 /* BandPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandPlanViewController.swift; sourceTree = "<group>"; };
+		BAD8C1C320E93EC100C04893 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		BAD8C1C520E9400200C04893 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BAE4B48620D76F9F0086D213 /* RadioBandPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioBandPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAE4B48920D76F9F0086D213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BAE4B48B20D76F9F0086D213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAE4B48920D76F9F0086D213 /* RadioBandPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioBandPlanApp.swift; sourceTree = "<group>"; };
+		BAE4B48B20D76F9F0086D213 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BAE4B48E20D76F9F0086D213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAE4B49020D76FA00086D213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE4B49320D76FA00086D213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +103,11 @@
 		BAE4B48820D76F9F0086D213 /* RadioBandPlan */ = {
 			isa = PBXGroup;
 			children = (
-				BAE4B48920D76F9F0086D213 /* AppDelegate.swift */,
-				BAE4B48B20D76F9F0086D213 /* ViewController.swift */,
+				BAE4B48920D76F9F0086D213 /* RadioBandPlanApp.swift */,
+				BAE4B48B20D76F9F0086D213 /* MainViewController.swift */,
+				BAD8C1C120E93E8000C04893 /* BandPlanViewController.swift */,
+				BAD8C1C320E93EC100C04893 /* NotesViewController.swift */,
+				BAD8C1C520E9400200C04893 /* TabBarController.swift */,
 				BAE4B48D20D76F9F0086D213 /* Main.storyboard */,
 				BAE4B49020D76FA00086D213 /* Assets.xcassets */,
 				BAE4B49220D76FA00086D213 /* LaunchScreen.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE4B48C20D76F9F0086D213 /* ViewController.swift in Sources */,
-				BAE4B48A20D76F9F0086D213 /* AppDelegate.swift in Sources */,
+				BAD8C1C420E93EC100C04893 /* NotesViewController.swift in Sources */,
+				BAE4B48C20D76F9F0086D213 /* MainViewController.swift in Sources */,
+				BAD8C1C620E9400200C04893 /* TabBarController.swift in Sources */,
+				BAE4B48A20D76F9F0086D213 /* RadioBandPlanApp.swift in Sources */,
+				BAD8C1C220E93E8000C04893 /* BandPlanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +449,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.hiklas.RadioBandPlan;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.hiklas.radio.RadioBandPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +467,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = eu.hiklas.RadioBandPlan;
+				PRODUCT_BUNDLE_IDENTIFIER = eu.hiklas.radio.RadioBandPlan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

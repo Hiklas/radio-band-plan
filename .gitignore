@@ -1,0 +1,3 @@
+# XCode doesn't seem to add this to the git repo so setting it to ignore
+*.xcodeproj/project.xcworkspace/xcuserdata
+
